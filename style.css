@@ -1,0 +1,71 @@
+h1 {
+    border: 2px solid black;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+}
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+    color:black;
+    word-spacing: 10px;
+    
+}
+body {
+    background: url(Dog.jpg) no-repeat center center / cover;
+    
+    background-color: skyblue;
+    margin: 10px 100px;
+}
+.list li  {
+    list-style-type: none;
+    padding: 10px;
+    display: block;
+    font-size: 30px;
+    
+}
+a {
+    text-decoration: none;
+    
+}
+.list li a:hover {
+    color: black;
+}
+.para1 {
+    float: left;
+    width: 50%;
+}
+
+table,td,th {
+   border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+table {
+     width: 100%;
+}
+th:hover {
+    background-color: red;
+}
+td:hover {
+    background-color: yellowgreen;
+}
+h1:hover {
+    
+    cursor: pointer;
+    background-color: white;
+}
+p:hover {
+    
+    color: blue;
+}
+@media (max-width:400px){
+    .container {
+       float: right;
+       width: 50%;
+
+    }
+}
