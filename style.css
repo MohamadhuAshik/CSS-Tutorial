@@ -66,6 +66,7 @@ p:hover {
     .container {
        float: right;
        width: 50%;
+       box-sizing: border-box;
 
     }
 }
