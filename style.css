@@ -11,18 +11,9 @@ h1 {
     background-color: black;
 }
 
-.one {
-    margin-left: 5%;
-}
 
-.two {
-    margin-left: 5%;
-}
 
-.three {
-    margin-left: 12%;
 
-}
 
 .container {
     display: inline-block;
@@ -52,7 +43,7 @@ body {
     margin: 10px 100px;
 }
 
-.list li {
+.list li ,img{
     list-style-type: none;
     padding: 10px;
     display: block;
