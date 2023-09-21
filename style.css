@@ -43,12 +43,15 @@ body {
     margin: 10px 100px;
 }
 
-.list li ,img{
+.list li ,.img1{
     list-style-type: none;
-    padding: 10px;
+    padding: 5px;
     display: block;
     font-size: 30px;
 
+}
+.img1 {
+    float: right;
 }
 
 a {
@@ -101,11 +104,17 @@ p:hover {
     color: blue;
 }
 
-@media (max-width:400px) {
+@media (max-width:500px) {
     .container {
         float: right;
-        width: 50%;
+        width: 291.06px;
 
 
     }
-}
+    p,h1,li a ,table{
+        text-align: center;
+        font-size: 15px;
+
+    }
+  
+    }
