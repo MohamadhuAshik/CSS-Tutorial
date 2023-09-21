@@ -1,72 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
+    display: inline-block;
     border: 2px solid black;
-    text-align: center;
+
     color: yellow;
     background-color: black;
 }
-p {
+
+.one {
+    margin-left: 5%;
+}
+
+.two {
+    margin-left: 5%;
+}
+
+.three {
+    margin-left: 20%;
+
+}
+
+.container {
+    display: inline-block;
     text-align: center;
+
+}
+
+p {
+
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: oblique;
     font-size: 25px;
-    color:black;
+    color: black;
     word-spacing: 10px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
+.four {
+    text-align: center;
+}
+
 body {
     background: url(Dog.jpg) no-repeat center center / cover;
-    
+
     background-color: skyblue;
     margin: 10px 100px;
 }
-.list li  {
+
+.list li {
     list-style-type: none;
     padding: 10px;
     display: block;
     font-size: 30px;
-    
+
 }
+
 a {
     text-decoration: none;
-    
+
 }
+
 .list li a:hover {
     color: black;
 }
+
 .para1 {
     float: left;
     width: 50%;
+    margin-right: 20%;
 }
 
-table,td,th {
-   border: 2px solid black;
+table,
+td,
+th {
+    border: 2px solid black;
     border-collapse: collapse;
-    text-align: center;
+
     padding: 10px;
 }
+
 table {
-     width: 100%;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
+
 th:hover {
     background-color: red;
 }
+
 td:hover {
     background-color: yellowgreen;
 }
+
 h1:hover {
-    
+
     cursor: pointer;
     background-color: white;
 }
+
 p:hover {
-    
+
     color: blue;
 }
-@media (max-width:400px){
+
+@media (max-width:400px) {
     .container {
-       float: right;
-       width: 50%;
-       
+        float: right;
+        width: 50%;
+
 
     }
 }
