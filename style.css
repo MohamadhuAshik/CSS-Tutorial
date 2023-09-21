@@ -35,6 +35,9 @@ p {
 .four {
     text-align: center;
 }
+.three {
+    text-align: center;
+}
 
 body {
     background: url(Dog.jpg) no-repeat center center / cover;
@@ -106,6 +109,7 @@ p:hover {
 
 @media (max-width:500px) {
     .container {
+        margin-left: 20px;
         float: right;
         width: 291.06px;
 
@@ -115,6 +119,9 @@ p:hover {
         text-align: center;
         font-size: 15px;
 
+    }
+    table {
+        max-width: 400px;
     }
   
     }
